@@ -1,0 +1,169 @@
+//Sección dedicada al header ----------------------
+.header{
+
+    .nav{
+
+        .nav-ul{
+
+            &-li{
+                
+            }
+
+            &-inicio{
+
+            }
+
+            &-nosotros{
+                
+            }
+
+            &-logo{
+                
+            }
+
+            &-servicios{
+                
+            }
+
+            &-contacto{
+                
+            }
+        }
+    }
+}
+
+//Sección dedicada al primer section ----------------------
+.main-section{
+
+    &-div{
+
+        &-title1{
+
+        }
+
+        &-title2{
+
+        }
+
+        &-info{
+
+        }
+
+    }
+
+    &-join{
+       
+        &-title{
+
+        }
+
+        &-form{
+
+            &-name{
+
+            }
+
+            &-email{
+                
+            }
+
+            &-submit{
+
+            }
+        }
+    }
+}
+
+//Sección dedicada al segundo section ----------------------
+.about-section{
+    &-img{
+
+    }
+
+    &-title{
+
+    }
+
+    &.info{
+
+    }
+}
+
+//Sección dedicada al tercer section ----------------------
+.services-section{
+    &-title{
+
+    }
+    &-div{
+
+        &-first{
+         
+            &-img{
+
+            }
+
+            &-p{
+
+            }
+        }
+
+        &-second{
+         
+            &-img{
+
+            }
+
+            &-p{
+                
+            }
+        }
+
+        &-third{
+         
+            &-img{
+
+            }
+
+            &-p{
+                
+            }
+        }
+    }
+}
+
+//Sección dedicada al último section ----------------------
+
+.contact-section{
+
+    &-title{
+
+    }
+
+    &-div{
+
+        &-first{
+        
+            &-form{
+
+                &-name{
+
+                }
+
+                &-email{
+
+                }
+
+                &-submit{
+
+                }
+            }
+        }
+
+        &-second{
+
+            &-info{
+                
+            }
+        }
+    }
+}
