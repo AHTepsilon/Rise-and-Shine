@@ -1,12 +1,37 @@
+$blue: #4036ED;
+
+body{
+    margin: 0 8em;
+    background-color: $blue;
+}
+
+@mixin noMargin {
+    margin: 0;
+}
+
+
 //Sección dedicada al header ----------------------
 .header{
+    background-color: $blue;
 
     .nav{
 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+
         .nav-ul{
 
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
             &-li{
-                
+                list-style: none;
+                margin: 0px 30px;
             }
 
             &-inicio{
@@ -34,27 +59,36 @@
 
 //Sección dedicada al primer section ----------------------
 .main-section{
+    background-color: $blue;
 
     &-div{
 
-        &-title1{
+        color: #fff;
+        margin-top: 6em;
 
+        &-title1{
+            font-size: 60px;
+            @include noMargin();
         }
 
         &-title2{
-
+            font-size: 90px;
+            @include noMargin();
         }
 
         &-info{
-
+            width: 40%;
+            @include noMargin();
         }
 
     }
 
     &-join{
+
+        margin-top: 4em;
        
         &-title{
-
+            color: #FFF;
         }
 
         &-form{
@@ -76,6 +110,7 @@
 
 //Sección dedicada al segundo section ----------------------
 .about-section{
+    background-image: url('./img/section2.png');
     &-img{
 
     }

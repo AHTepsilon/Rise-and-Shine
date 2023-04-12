@@ -1,1 +1,53 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0 8em;
+  background-color: #4036ED;
+}
+
+.header {
+  background-color: #4036ED;
+}
+.header .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+}
+.header .nav .nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header .nav .nav-ul-li {
+  list-style: none;
+  margin: 0px 30px;
+}
+.main-section {
+  background-color: #4036ED;
+}
+.main-section-div {
+  color: #fff;
+  margin-top: 6em;
+}
+.main-section-div-title1 {
+  font-size: 60px;
+  margin: 0;
+}
+.main-section-div-title2 {
+  font-size: 90px;
+  margin: 0;
+}
+.main-section-div-info {
+  width: 40%;
+  margin: 0;
+}
+.main-section-join {
+  margin-top: 4em;
+}
+.main-section-join-title {
+  color: #FFF;
+}
+.about-section {
+  background-image: url("./img/section2.png");
+}/*# sourceMappingURL=style.css.map */
