@@ -110,24 +110,36 @@ body{
 
 //Sección dedicada al segundo section ----------------------
 .about-section{
-    background-image: url('./img/section2.png');
+
+    &-background{
+        position: absolute;
+        z-index: -1;
+        margin: 0;
+    }
+
     &-img{
 
     }
 
     &-title{
-
+        font-size: 40px;
+        text-align: right;
     }
 
-    &.info{
-
+    &-info{
+        text-align: right;
     }
 }
 
 //Sección dedicada al tercer section ----------------------
 .services-section{
+    &-background{
+        position: absolute;
+        z-index: -1;
+        margin: 0;
+    }
     &-title{
-
+       font-size: 40px;
     }
     &-div{
 
