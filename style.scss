@@ -62,6 +62,8 @@ body{
     background-color: $blue;
     display: flex;
     flex-direction: row;
+    margin-top: 1em;
+
 
     &-div{
 
@@ -94,18 +96,47 @@ body{
         }
 
         &-form{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: left;
+
+            @mixin input(){
+                width: 75%;
+                height: 2em;
+                border-radius: 5px;
+                border: none;
+                margin: 0.3em;
+
+                &::placeholder{
+                 color: #999;   
+                }
+            }
 
             &-name{
-
+                @include input();
             }
 
             &-email{
-                
+                @include input();
             }
 
             &-submit{
-
+                width: 25%;
+                background-color: #352CDA;
+                color: #fff;
+                height: 2em;
+                border-radius: 5px;
+                border: none;
+                margin-top: 0.8em;
             }
+        }
+    }
+
+    &-arr2{
+        &-img{
+            width: 20em;
         }
     }
 }
@@ -115,6 +146,9 @@ body{
     color: #FFF;
     display: flex;
     flex-direction: row;
+    margin-top: 5em;
+
+    align-items: center;
 
     &-arr1{
 
@@ -123,8 +157,8 @@ body{
     &-arr2{
         display: flex;
         flex-direction: column;
-        align-items: right;
-        justify-content:right;
+        align-items: flex-end;
+        justify-content: right;
     }
 
     &-background{
@@ -134,7 +168,7 @@ body{
     }
 
     &-img{
-        width: 90%;
+        width: 200%;
     }
 
     &-title{
@@ -155,6 +189,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content:center;
+
+    margin-top: 5em;
 
     &-background{
         position: absolute;
@@ -213,6 +249,8 @@ body{
     justify-content:center;
 
     color: #FFF;
+    margin-top: 3em;
+    margin-bottom: 5em;
     &-title{
         font-size: 40px;
     }
@@ -222,19 +260,44 @@ body{
         flex-direction: row;
 
         &-first{
+
+            width: 150%;
         
             &-form{
 
-                &-name{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: left;
 
+                @mixin input(){
+                    width: 75%;
+                    height: 2em;
+                    border-radius: 5px;
+                    border: none;
+                    margin: 0.3em;
+
+                    &::placeholder{
+                     color: #999;   
+                    }
+                }
+
+                &-name{
+                    @include input();
                 }
 
                 &-email{
-
+                    @include input();
                 }
 
                 &-submit{
-
+                    width: 25%;
+                    background-color: #352CDA;
+                    color: #fff;
+                    height: 2em;
+                    border-radius: 5px;
+                    border: none;
+                    margin-top: 0.8em;
                 }
             }
         }
