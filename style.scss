@@ -12,6 +12,15 @@ body{
     margin: 0;
 }
 
+                    
+@mixin input(){
+    margin: 0.3em;
+    height: 2.5em;
+    border-radius: 5px;
+    border: none;
+}
+
+
 
 //Sección dedicada al header ----------------------
 .header{
@@ -180,7 +189,7 @@ body{
     }
 
     &-img{
-        width: 200%;
+        width: 40%;
     }
 
     &-title{
@@ -313,8 +322,6 @@ body{
         justify-content:center;
 
         &-first{
-
-            width: 150%;
         
             &-form{
                 display: flex;
